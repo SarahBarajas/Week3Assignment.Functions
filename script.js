@@ -5,9 +5,9 @@
 // console.log(min(0, -10)); // will output -10
 
 // Function to return the smallest of two numbers
-function min(a, b) {
+    function min(a, b) {
     return a < b ? a : b;
-
+    }
 console.log(min(15, 25)); // will output 15
 console.log(min(-5, 20)); // will output -5
 
@@ -31,13 +31,12 @@ console.log(calculateCircumference(5)); //will output 31.4
 
 // Function to search for a character in a string and count its occurrences
 function searchString(char, str) {
-    let count = 0;
-    for (let i = 0; i < str.length; i++) {
-        if (str[i] === char) {
-            count++;
+    let count = 0;  // Initialize count variable to zero
+    for (let i = 0; i < str.length; i++) {  
+        if (str[i] === char) {  
         }
+        return count;  // Return the total count of matches
     }
-    return count;
-
     
-console.log(searchString("i", "mississippi")); //will out 4
+console.log(searchString("i", "mississippi")); //will out 4 
+}
