@@ -39,3 +39,5 @@ function searchString(char, str) {
     }
     return count;
 
+    
+console.log(searchString("i", "mississippi")); //will out 4
